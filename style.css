@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("Captura\ de\ tela\ 2024-10-14\ 220519\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8.375rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.7rem;
+
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
