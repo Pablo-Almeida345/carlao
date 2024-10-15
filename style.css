@@ -5,19 +5,30 @@
 }
 
 body{
-    background-image: url("Captura\ de\ tela\ 2024-10-14\ 220519\ \(1\).png");
+    background-image: url("img/carlao.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 8.375rem;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3.7rem;
-
 }
 
-.texto{
+.textos{
+    display: table-column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100000;
+    color: white;
+}
+.conteiner{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
     display: flex;
     justify-content: center;
     align-items: center;
